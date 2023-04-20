@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Counter</title>
+
+    <link rel="stylesheet" href="./counter/css/counter.css">
+</head>
+<body>
+    
+   <div id="wrapper">
+        <div class="container">
+            <h3>Num counter</h3>
+            <input type="text" id="myInput" onkeyup="showMessage()">
+            <p id="message"></p>
+        </div>
+
+        <p id="current">Current Letter: </p>
+        <p>All Values: </p>
+        <div id="allValues">
+            
+        </div>
+        <button onclick="clearValue()" id="clearValues">Clear values</button>
+   </div>
+    
+
+    <script src="./js/counter.js"></script>
+</body>
+</html>
